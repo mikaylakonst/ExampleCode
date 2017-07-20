@@ -15,6 +15,13 @@ for x in range(0, 5):
 
 for x in range(5):
   print(x)
+  
+# This for loop does the same thing as the other ones.
+# x goes from 0 to 5 by steps of size +1.
+# As before, the 0 is inclusive and the 5 is exclusive,
+# so x takes on the values 0, 1, 2, 3, and 4.
+for x in range(0, 5, 1):
+  print(x)
 
 # This is a while loop.
 # Every time the loop executes,
